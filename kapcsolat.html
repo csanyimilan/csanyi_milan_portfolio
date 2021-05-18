@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width-device-width, initial-scale:1.0">
+	<meta charset="utf-8">
+	<title>Kapcsolat</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style>
+		a:link{
+			text-decoration: none;
+		}
+		a.fejlec:hover{
+			text-decoration: underline;
+		}
+		#elerhetoseg{
+			height: 125px;
+			width: 125px;
+			opacity: 0.75; /*átlátszóbb/fakóbb a kép*/
+		}
+		#elerhetoseg:hover{ /*ez történik, ha a link fölé mozditjuk a cursort*/
+			border: 1px solid #ddd;
+			opacity: 1;
+  			border-radius: 4px;
+  			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="cimke">
+			<p> Portfólió </p>
+		</div>
+		<nav>
+			<a class=fejlec href="https://csanyimilan.github.io/csanyi_milan_portfolio/index"><i>Kezdőlap</i></a>
+			<a class=fejlec href="https://csanyimilan.github.io/csanyi_milan_portfolio/oneletrajz"><i>Önéletrajz</i></a>
+			<a class=fejlec href="https://csanyimilan.github.io/csanyi_milan_portfolio/munkaim"><i>Munkáim</i></a>
+			<a class=fejlec href="https://csanyimilan.github.io/csanyi_milan_portfolio/terv"><i>Terv</i></a>
+			<a class=fejlec href="https://csanyimilan.github.io/csanyi_milan_portfolio/kapcsolat"><i>Kapcsolat</i></a>
+		</nav>
+	</header>
+	<div  class=keret>
+		<div class="kapcsolat">
+
+			<a class=elerhetoseg href="https://www.facebook.com/profile.php?id=100008526917222">
+			<img src="css/kep/fb.jpg" id="elerhetoseg">
+			</a>
+			<a class=elerhetoseg href="mailto:cs.milan27@gmail.com">
+			<img src="css/kep/mail.jpg" id="elerhetoseg">
+			</a>
+			<a class=elerhetoseg href="https://www.instagram.com/milancsanyi/">
+			<img src="css/kep/insta.jpg" id="elerhetoseg"> 
+			</a>
+			
+		</div>
+	</div>
+		
+
+</body>
+</html>
